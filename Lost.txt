@@ -1,0 +1,33 @@
+activity_main.xml:
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+//        if(btnConvert.equals(view)){
+//            int dec = -1;
+//            EditText decText = (EditText) findViewById(R.id.textDec);
+//            String decStr = decText.getText().toString();
+//            if(decStr.length() > 0 && decStr.length() < 9){
+//                dec = Integer.parseInt(decStr);
+//            }
+//            if(dec >= 0){
+//                String bin = "";
+//                while(dec != 0){
+//                    if(dec % 2 == 0){
+//                        bin = "0" + bin;
+//                    }
+//                    else{
+//                        bin = "1" + bin;
+//                        dec = dec / 2;
+//                    }
+//                    EditText binText = (EditText) findViewById(R.id.textBin);
+//                    binText.setText(bin);
+//                }
+//            }
+//        }
